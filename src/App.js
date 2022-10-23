@@ -1,12 +1,13 @@
 import './app.css'
-import pfp from './chrollo.jpg'
+import pfp from './vector.jpg'
+import { BsGithub } from 'react-icons/bs';
 
 function App() {
   return (
-   <div className='font-jetbrains'>
+   <div className='font-roboto  bg-backcolor'>
      <main >
-        <nav className="flex justify-between p-4 text-xl bg-blue-900 text-white ">
-        <h1 >
+        <nav className="flex justify-between p-4 text-xl bg-navcolor text-navtextcolor ">
+        <h1 className= ' text-gray-300  text-xl ' >
         Sameer Sahu
         </h1> 
 
@@ -18,12 +19,20 @@ function App() {
         </nav>   
     </main>
 
-    <section className=' text-center border-4 border-sky-500 min-h-screen pt-20 text-purple-600 text-lg  '>
+    <section className=' text-center border-4 border-sky-300 min-h-screen pt-20 text-lg  text-white '>
 
-      <img src = {pfp} className=' object-scale-down h-48 w-96 inline '></img>
 
-      <h1 className='text-3xl py-4'>Hello 🖐</h1>
-      <p className='text-2xl'>I am Sameer a Full Stack Developer and a Computer Science Student.</p>
+    <img src = {pfp} className=' h-60 w-50 rounded-full inline '></img>
+
+
+    <div className=' px-6 '>
+      <h1 className='text-3xl py-4'>Sameer Sahu</h1>
+      <p className='text-xl'>I'm Sameer a Full Stack Developer and a CS grad. I like to build stuff </p>
+
+   
+    </div>
+    < BsGithub className=' inline ' />
+    
     </section>
    </div>
 
