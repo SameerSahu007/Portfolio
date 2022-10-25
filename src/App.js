@@ -1,6 +1,10 @@
 import './app.css'
 import pfp from './vector.jpg'
-import { BsGithub } from 'react-icons/bs';
+import { BsGithub, BsLinkedin } from 'react-icons/bs';
+import { SiLeetcode, SiDiscord } from 'react-icons/si'
+
+
+const x  = '<Sameer Sahu/>'
 
 function App() {
   return (
@@ -13,7 +17,7 @@ function App() {
 
         <ul>
           <li>
-            <a className=' bg-black p-2 rounded ' href='#'>Resume</a>
+            <a className=' bg-black px-3 py-2 rounded-full  hover:text-white' href='#'>Resume</a>
           </li>
         </ul>
         </nav>   
@@ -25,14 +29,29 @@ function App() {
     <img src = {pfp} className=' h-60 w-50 rounded-full inline '></img>
 
 
-    <div className=' px-6 '>
-      <h1 className='text-3xl py-4'>Sameer Sahu</h1>
-      <p className='text-xl'>I'm Sameer a Full Stack Developer and a CS grad. I like to build stuff </p>
+    <div className=' px-8  m-auto '>
+      <h1 className='text-3xl py-4 text-fuchsia-500 '>{x}</h1>
+      <p className='text-xl'>I'm Sameer a Full Stack Developer and a CS grad. I love to code and build projects :) </p>
 
    
     </div>
-    < BsGithub className=' inline ' />
+
+
+    <div className='text-4xl  flex py-8 justify-center gap-10  '>
+
+    <a href='https://github.com/SameerSahu007'><BsGithub  className='hover:text-blue-600 hover:text-5xl'/></a>
+    <a href='https://www.linkedin.com/in/sameerx86/'><BsLinkedin className='hover:text-blue-600 hover:text-5xl' /></a>
+    <a href='https://leetcode.com/sameerx86/'> <SiLeetcode className='hover:text-blue-600 hover:text-5xl' /></a>
+    <a href='discordapp.com/users/1033794257657536642'><SiDiscord  className='hover:text-blue-600 hover:text-5xl'/></a>
+
     
+   
+   
+
+    </div>
+   
+
+
     </section>
    </div>
 
