@@ -17,13 +17,13 @@ function App() {
 
         <ul>
           <li>
-            <a className=' bg-black px-3 py-2 rounded-full  hover:text-white' href='#'>Resume</a>
+            <a className=' bg-black px-3 py-2 rounded-full  hover:text-white' href='https://github.com/SameerSahu007/resume/raw/main/sameersahu(1).pdf'>Resume</a>
           </li>
         </ul>
         </nav>   
     </main>
 
-    <section className=' text-center border-4 border-sky-300 min-h-screen pt-20 text-lg  text-white '>
+    <section className=' text-center np min-h-screen pt-20 text-lg  text-white '>
 
 
     <img src = {pfp} className=' h-60 w-50 rounded-full inline '></img>
