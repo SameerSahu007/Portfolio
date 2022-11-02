@@ -8,10 +8,10 @@ const x  = '<Sameer Sahu/>'
 
 function App() {
   return (
-   <div className='font-roboto  bg-backcolor'>
+   <div className='font-roboto  bg-backcolor ' >
      <main >
-        <nav className="flex justify-between p-4 text-xl bg-navcolor text-navtextcolor ">
-        <h1 className= ' text-gray-300  text-xl ' >
+        <nav className="flex justify-between p-4 text-xl bg-navcolor text-navtextcolor max-w-screen-md m-auto bord rounded-xl  ">
+        <h1 className= ' text-gray-300  text-xl  ' >
         Sameer Sahu
         </h1> 
 
@@ -23,15 +23,16 @@ function App() {
         </nav>   
     </main>
 
-    <section className=' text-center np min-h-screen pt-20 text-lg  text-white '>
+    <section className=' text-center np min-h-screen pt-20 text-lg  text-white max-w-screen-md m-auto '>
 
 
     <img src = {pfp} className=' h-60 w-50 rounded-full inline '></img>
 
 
     <div className=' px-8  m-auto '>
-      <h1 className='text-3xl py-4 text-fuchsia-500 '>{x}</h1>
-      <p className='text-xl'>I'm Sameer a Full Stack Developer and a CS grad. I love to code and build projects :) </p>
+      <h1 className='text-3xl py-4 text-namecolor '>{x}</h1>
+      <p className='text-xl'>I'm Sameer a Full Stack Developer and a CS grad.</p>
+      <p className='text-xl'> I love to code and build projects :) </p>
 
    
     </div>
