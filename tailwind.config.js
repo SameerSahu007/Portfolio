@@ -10,7 +10,8 @@ module.exports = {
         navcolor : '#5837D0',
         navtextcolor : '#81C6E8',
         backcolor : '#171C28',
-        namecolor : '#bde4f7'
+        namecolor : '#bde4f7',
+        'hcolor' : '#3f98e6'
     },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'], 
